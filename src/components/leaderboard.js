@@ -9,7 +9,7 @@ const months = [
 ];
 
 const currentYear = new Date().getFullYear();
-const years = Array.from(new Array(10), (val, index) => currentYear - index);
+const years = Array.from(new Array(100), (val, index) => currentYear - index);
 
 const Leaderboard = () => {
     const [leaderboard, setLeaderboard] = useState(null);
