@@ -56,7 +56,7 @@ const Leaderboard = () => {
                     </select>
                 </label>
                 <button onClick={fetchLeaderboard} className="searchButton">Search</button>
-                <button className="deleteButton">Delete Data</button>
+                <button className="deleteButton">Delete This Data</button>
             </div>
             <UploadLeaderboard months={months} years={years} setLeaderboardData={setLeaderboard} />
             {leaderboard && <RevenueLeaderboard data={leaderboard} />}
