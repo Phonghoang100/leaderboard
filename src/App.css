@@ -40,15 +40,15 @@ button {
   background-color: #002244;
 }
 
-/* .deleteButton {
+.deleteButton {
   background-color: white;
   color: red;
   border: 1px solid red;
   border-radius: 5px;
   padding: 10px 20px;
-  margin-left: -1600px;
+  margin-left: 200px;
   cursor: pointer;
-} */
+}
 
 .deleteButton:hover {
   background-color: red;
